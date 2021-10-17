@@ -21,6 +21,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring Webflow-2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" level="project" />
@@ -35,5 +36,17 @@
     <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-catalina:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-servlet-api:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jsp-api:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-el-api:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-api:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jni:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-coyote:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util-scan:10.1.0-M6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jaspic-api:10.1.0-M6" level="project" />
   </component>
 </module>

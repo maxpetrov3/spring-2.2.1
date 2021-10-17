@@ -12,6 +12,8 @@
 
     <properties>
         <spring.version>5.2.0.RELEASE</spring.version>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+
     </properties>
 
     <dependencies>
@@ -36,6 +38,14 @@
             <version>3.0.9.RELEASE</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>10.1.0-M6</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -57,6 +67,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
