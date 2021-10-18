@@ -10,6 +10,9 @@ import java.util.List;
 public class CarService {
 
     public List<Car> getCars(int count) {
+        if (count == 0 || count > 5) {
+            count = 5;
+        }
         List<Car> cars = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             cars.add(new Car("Car" + i, "red", i * 1000));
